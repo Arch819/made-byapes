@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Right Grotesk';
+    src: local('Right Grotesk'), local('RightGrotesk-NarrowLight'),
+        url('./RightGrotesk-NarrowLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Right Grotesk';
+    src: local('./Right Grotesk'), local('RightGrotesk-TightMedium'),
+        url('./RightGrotesk-TightMedium.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Right Grotesk';
+    src: local('./Right Grotesk'), local('RightGrotesk-Medium'),
+        url('./RightGrotesk-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Right Grotesk';
+    src: local('./Right Grotesk'), local('RightGrotesk-WideMedium'),
+        url('./RightGrotesk-WideMedium.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Right Grotesk';
+    src: local('Right Grotesk'), local('Rightgrotesk-CompactBlack'),
+        url('./RightGrotesk-CompactBlack.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Right Grotesk';
+    src: local('Right Grotesk'), local('Rightgrotesk-spatialblack'),
+        url('./rightgrotesk-spatialblack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}

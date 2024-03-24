@@ -1,0 +1,46 @@
+.swiper {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.swiper-wrapper {
+  margin-bottom: 10px;
+}
+
+.swiper-slide {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.swiper-navigation-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: relative;
+  left: 0;
+  right: 0;
+  width: auto;
+  margin-top: 0;
+
+  font-family: "Biro Script Plus Bold US";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: var(--color-dark-theme);
+  text-transform: capitalize;
+
+  &::after {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .swiper-wrapper {
+    margin-bottom: 28px;
+  }
+}
